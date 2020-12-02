@@ -2,3 +2,8 @@ Convert .mov or .mp4 files to gifs on MacOS (requires ffmpeg, imagemagick, gifsi
 '''
 ffmpeg -i in.mov -pix_fmt rgb8 -r 10 output.gif && gifsicle -O3 output.gif -o output.gif
 '''
+
+Resize image
+'''
+convert input.png -resize 500x500 output.png
+'''
