@@ -1,0 +1,1 @@
+To deploy to GitHub pages, use the gh-pages extension. Don't make a gh-pages branch in advance. Visit the GitHub settings to set the branch and folder. 
